@@ -32,9 +32,9 @@ module Le
                 STDOUT
               end
             else
-            local
+              local
             end
-          @logger_console = Logger.new(device)
+            @logger_console = Logger.new(device)
           end
 
           @local = !!local
